@@ -29,22 +29,43 @@ export const Contact = ({ title, description, buttons }) => {
 		</div>
 	);
 }
-
 export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
-				<small>&copy; 2021 {" "}
-					<Link href="https://github.com/hashirshoaeb">
-						<a>hashirshoaeb</a>
+				<small>&copy; 2024 {" "}
+					<Link href="https://github.com/martinaegidius">
+						<a>martinaegidius</a>
 					</Link>
-					. Open sourced with love under {" "}
-					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
+					. Open sourced with love under MIT
+					{/* <Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
 						<a>MIT</a>
+					</Link> */}
+					{" "} License with templating by {" "}
+					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
+						<a>Hashir Shoaeb, 2021</a>
 					</Link>
-					{" "} License
 				</small>
 			</div>
 		</footer>
 	);
 }
+
+// export const Footer = () => {
+// 	return (
+// 		<footer className="bg-secondary text-center py-2 px-5">
+// 			<div className="container text-muted">
+// 				<small>&copy; 2021 {" "}
+// 					<Link href="https://github.com/hashirshoaeb">
+// 						<a>hashirshoaeb</a>
+// 					</Link>
+// 					. Open sourced with love under {" "}
+// 					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
+// 						<a>MIT</a>
+// 					</Link>
+// 					{" "} License
+// 				</small>
+// 			</div>
+// 		</footer>
+// 	);
+// }
