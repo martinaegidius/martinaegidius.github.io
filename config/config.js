@@ -89,6 +89,15 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "Cleaninbox", 
+      description: "TinyBERT finetuned to the banking77 dataset deployed with Google Cloud Run using FastAPI for back-end and streamlit for front-end."
+      icons: [
+      	{
+      	  icon: faLink,
+      	  link: "https://email-api-frontend-170780472924.europe-west1.run.app/"
+      	}
+      ]
+    {
       title: "NMTMNet",
       description: "A end-to-end deep learning pipeline for transmembrane protein prediction and classification based on AlphaFold and SchNet.",
       icons: [
@@ -117,7 +126,7 @@ export const projects = {
       ]
     },
     {
-      title: "LateLecture",
+      title: "LateLecture - co-founder",
       description: "A student organization made for inspiring and motivating STEM-students with large ambitions.",
       icons: [
         {
