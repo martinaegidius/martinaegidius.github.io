@@ -88,15 +88,18 @@ export const work = {
 export const projects = {
   title: "Projects",
   cards: [
-    {
-      title: "Cleaninbox", 
-      description: "TinyBERT finetuned to the banking77 dataset deployed with Google Cloud Run using FastAPI for back-end and streamlit for front-end."
-      icons: [
-      	{
-      	  icon: faLink,
-      	  link: "https://email-api-frontend-170780472924.europe-west1.run.app/"
-      	}
-      ]
+      {
+        title: "Cleaninbox",
+        description: "TinyBERT finetuned to the banking77 dataset deployed with Google Cloud Run using FastAPI for back-end and streamlit for front-end.",
+        icons: 
+        [
+          {
+            icon: faLink,
+            link: "https://email-api-frontend-170780472924.europe-west1.run.app/",
+          }        
+        ]
+      },
+
     {
       title: "NMTMNet",
       description: "A end-to-end deep learning pipeline for transmembrane protein prediction and classification based on AlphaFold and SchNet.",
