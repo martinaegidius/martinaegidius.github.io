@@ -43,8 +43,13 @@ export const intro = {
       isPrimary: true,
     },
     {
-      title: "Resume",
-      link: "https://drive.google.com/file/d/1o8gie_zK903fPEX7GzltUqD0ioHiu36a/view?usp=sharing",
+      title: "Resume (DA)",
+      link: "https://drive.google.com/file/d/1mp-0F3I4UvL0TgVqcJ98IC9VOwFc2wi6/view?usp=sharing",
+      isPrimary: false,
+    },
+    {
+      title: "Resume (EN)",
+      link: "https://drive.google.com/file/d/1kvvTmhBNUTZNcafE0lfQ1NTgz0LQph_t/view?usp=sharing",
       isPrimary: false,
     },
   ],
@@ -53,9 +58,9 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I received my Bachelor's degree (Earth and Space Physics Engineering) from Technical University of Denmark in 2022, and have since decided to follow my passion and thus am currently studying a Master's in Mathematical Modeling and Computation on Technical University of Denmark (finished summer 2025). I love everything data-driven.",
-    "With the recent AI-buzz I am very interested in realistic performance-guarantees (yay for asymptotes!). I deeply enjoy learning about the newest tech-trends and to educate those around me about how and why AI-headlines in general are heavily extrapolating. I love finding new applications of tried and tested modeling approaches rather than utilizing the newest LLMs in a transfer-setting.",
-    "I thoroughly enjoy learning and spend large amounts of my free-time in gaining more profeciency in programming, mathematics and economics. When I'm not learning, I enjoy cultivating my hobbies, which in part include hand-brewed craft coffee (yes, I do indeed weigh my beans...), drawing, electronic music production and running.",
+    "Currently, I'm pursuing a Master's in Mathematical Modeling and Computation at DTU, which I will finish this summer (July 2025). I hold a Bachelor's degree in Earth and Space Physics Engineering from the Technical University of Denmark (DTU), completed in 2022. My academic journey has been shaped by a deep interest in data-driven approaches and a passion for applied mathematics.",
+    "I'm especially drawn to the theoretical underpinnings of modern machine learning, with a particular curiosity for Computer Vision and Signal Processing. I'm very keen to work more on the MLOps side of things in the future. While I stay up to date with the latest AI advancements, I find greater satisfaction in applying well-established modeling techniques to new, creative problems. I also enjoy demystifying AI trends and helping others understand the real implications behind the headlines.",
+    "In my free time, I continuously work on improving my skills in programming, mathematics, and economics. Beyond the academic and professional world, I have a love for hand-brewed coffee (yes, I do weigh my beans), electronic music production, drawing, and running.",
   ],
 }
 
@@ -64,12 +69,12 @@ export const work = {
   cards: [
     {
       title: "Machine Learning",
-      description: "Most of my advanced courses are with a focus on Machine Learning, in parts for signal processing, semi-structured and structured data and images.",
+      description: "Most of my advanced courses are with a focus on Machine Learning, in parts focusing on signal processing and computationally intensive statistics.",
       icons: null,
     },
     {
       title: "Computer Vision and Image Processing",
-      description: "Ranging from deformable models and Markov Random Fields to Denoising Diffusion Probabilistic Models and Neural Radiance Fields",
+      description: "Ranging from deformable models and Markov Random Fields to GenAI and Neural Radiance Fields",
       icons: null,
     },
     {
@@ -90,7 +95,7 @@ export const projects = {
   cards: [
       {
         title: "Cleaninbox",
-        description: "TinyBERT finetuned to the banking77 dataset deployed with Google Cloud Run using FastAPI for back-end and streamlit for front-end.",
+        description: "TinyBERT finetuned to the banking77 dataset using Huggingface. Deployed in a docker container with GitHub Actions. Lives in Google Cloud Run using FastAPI, Torch and Streamlit.",
         icons: 
         [
           {
@@ -102,7 +107,7 @@ export const projects = {
 
     {
       title: "NMTMNet",
-      description: "A end-to-end deep learning pipeline for transmembrane protein prediction and classification based on AlphaFold and SchNet.",
+      description: "A end-to-end deep learning pipeline for transmembrane protein prediction and classification based on AlphaFold and SchNet using PyTorch Geometric, Lightning and vanilla PyTorch.",
       icons: [
         {
           icon: faGithub,
@@ -116,7 +121,7 @@ export const projects = {
     },
     {
       title: "EyeFormer",
-      description: "A novel vision transformer based solution for generating bounding-box labels using eye-tracking data.",
+      description: "A novel end-to-end vision transformer based solution for generating bounding-box labels using eye-tracking data using PyTorch.",
       icons: [
         {
           icon: faGithub,
@@ -189,14 +194,14 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char  
   title: "Martin Aegidius | Data Science Engineer | Machine Learning | Deep Learning Developer",
-  description: "I create machine and deep learning models. I graduate from Technical University of Denmark (DTU) in 2025 with a degree in Mathematical Modeling and Computation.",
+  description: "I create ML and Neural Networks. I graduate from Technical University of Denmark (DTU) in 2025 with a degree in Mathematical Modeling and Computation.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
   title: "@martinaegidius",
-  description: "Data Science Engineer | Machine Learning | Deep Learning Developer",
+  description: "Data Science | Machine Learning | Deep Learning",
   cards: [
     // {
     //   title: "My website",
