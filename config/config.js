@@ -34,7 +34,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Hi, I'm Martin",
-  description: "Soon to be applied mathematics civil-engineer with a main focus on statistics, machine learning and deep learning.",
+  description: "Civil-engineer in applied mathematics. My main focus is on machine learning/deep learning, image analysis, statistical modelling and scientific computing.",
   image: profile.src,
   buttons: [
     {
@@ -44,12 +44,12 @@ export const intro = {
     },
     {
       title: "Resume (DA)",
-      link: "https://drive.google.com/file/d/1mp-0F3I4UvL0TgVqcJ98IC9VOwFc2wi6/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1RCc9sMhHj4J-mGFiefIqv7dCIf0ipby6/view?usp=sharing",
       isPrimary: false,
     },
     {
       title: "Resume (EN)",
-      link: "https://drive.google.com/file/d/1kvvTmhBNUTZNcafE0lfQ1NTgz0LQph_t/view?usp=sharing",
+      link: "https://drive.google.com/file/d/13mvcJYhYzPsM35rOpGPJLCCGOBkQV2Io/view?usp=sharing",
       isPrimary: false,
     },
   ],
@@ -58,9 +58,9 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "Currently, I'm pursuing a Master's in Mathematical Modeling and Computation at DTU, which I will finish this summer (July 2025). I hold a Bachelor's degree in Earth and Space Physics Engineering from the Technical University of Denmark (DTU), completed in 2022. My academic journey has been shaped by a deep interest in data-driven approaches and a passion for applied mathematics.",
-    "I'm especially drawn to the theoretical underpinnings of modern machine learning, with a particular curiosity for Computer Vision and Signal Processing. I'm very keen to work more on the MLOps side of things in the future. While I stay up to date with the latest AI advancements, I find greater satisfaction in applying well-established modeling techniques to new, creative problems. I also enjoy demystifying AI trends and helping others understand the real implications behind the headlines.",
-    "In my free time, I continuously work on improving my skills in programming, mathematics, and economics. Beyond the academic and professional world, I have a love for hand-brewed coffee (yes, I do weigh my beans), electronic music production, drawing, and running.",
+    "I completed the MSc. Mathematical Modeling and Computation at DTU in summer 2025 and BSc. Earth and Space Physics Engineering from the Technical University of Denmark (DTU) in 2022. My academic journey has been shaped by a deep interest in data-driven approaches and a passion for applied mathematics.",
+    "I'm especially drawn to the theoretical underpinnings of modern machine learning, with a particular curiosity for Computer Vision, Signal Processing and MLOps. While I stay up to date with the latest AI advancements, I also find great satisfaction in applying well-established modeling techniques to new, creative problems. I also enjoy demystifying AI trends and helping others understand the real implications behind the headlines.",
+    "In my free time, I continuously work on improving my skills in kendama and synthesizer sound design while enjoying craft coffee. When the weather is nice, I like to go mountain hiking. ",
   ],
 }
 
@@ -73,7 +73,7 @@ export const work = {
       icons: null,
     },
     {
-      title: "Computer Vision and Image Processing",
+      title: "Computer Vision and Image Analysis",
       description: "Ranging from deformable models and Markov Random Fields to GenAI and Neural Radiance Fields",
       icons: null,
     },
@@ -93,17 +93,55 @@ export const work = {
 export const projects = {
   title: "Projects",
   cards: [
-      {
-        title: "Cleaninbox",
-        description: "TinyBERT finetuned to the banking77 dataset using Huggingface. Deployed in a docker container with GitHub Actions. Lives in Google Cloud Run using FastAPI, Torch and Streamlit.",
-        icons: 
+    {
+      title: "Orthocount",
+      description: "Building object counting pipelines for Roskilde festival.",
+      icons:
         [
+          {
+            icon: faGithub,
+            link: "https://github.com/martinaegidius/orthocount",
+          }
+        ]
+    },
+    {
+      title: "CoursePuppeteer",
+      description: "A code-base for automatic course content delivery using CI/CD pipelines. Developed together with Ludvík Petersen for the Technical University of Denmark. Need help adapting your course for the structure? Feel free to write.",
+      icons:
+        [
+          {
+            icon: faGithub,
+            link: "https://github.com/martinaegidius/CoursePuppeteer",
+          }
+        ]
+    },
+    {
+      title: "OctDiff",
+      description: "3D diffusion based methods for cardiovascular data analysis and synthesis. Thesis project made together with Ludvík Petersen. Allows highly realistic 3D cardiovascular organ mesh synthesis in 2.5 seconds using class-conditional dual octree based LDMs.",
+      icons:
+        [
+          {
+            icon: faFilePdf,
+            link: "https://drive.google.com/file/d/1Ob6EIdva9SmKDv4Ov4XzE24bhWFE8I8A/view?usp=sharing",
+          }
+        ]
+    },
+
+    {
+      title: "Cleaninbox",
+      description: "TinyBERT finetuned to the banking77 dataset using Huggingface. Deployed in a docker container with GitHub Actions. Lives in Google Cloud Run using FastAPI, Torch and Streamlit.",
+      icons:
+        [
+          {
+            icon: faGithub,
+            link: "https://github.com/dtumlops-group98-org/Group98_MLOps?tab=readme-ov-file",
+          },
           {
             icon: faLink,
             link: "https://email-api-frontend-170780472924.europe-west1.run.app/",
-          }        
+          }
         ]
-      },
+    },
 
     {
       title: "NMTMNet",
@@ -194,7 +232,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char  
   title: "Martin Aegidius | Data Science Engineer | Machine Learning | Deep Learning Developer",
-  description: "I create ML and Neural Networks. I graduate from Technical University of Denmark (DTU) in 2025 with a degree in Mathematical Modeling and Computation.",
+  description: "I create machine learning algorithms and neural networks. I graduated from the Technical University of Denmark (DTU) in 2025 with a degree in Mathematical Modeling and Computation.",
   image: profile.src,
 }
 

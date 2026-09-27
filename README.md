@@ -147,3 +147,52 @@ Contributions are what make the open source community such an amazing place to l
 # License
 
 Distributed under the `MIT` License. See [LICENSE](https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE) for more information.
+
+
+
+
+
+
+
+
+
+
+# LOG private
+- Cloned repo
+- Installed nodejs and npm using apt
+- npm install 
+- npm run build
+- npm run dev <- for hosting localhost
+- If want host to other url need fix look readme
+
+Changing stuff: 
+in config 
+
+But first! check that it can be deployed at all 
+
+Updates: change config/config.js
+- When you've done changes: 
+	- npm run predeploy
+	- node scripts/pages.js martinaegidius master
+		- VERY IMPORTANT TO USE MASTER ELSE YOU OVERWRITE SRC!
+
+
+
+token - this is the auth for usr somehow for some reason - is saved in proton pass and local .env
+
+
+
+
+#todo 
+- consider using https://github.com/hashirshoaeb/home/blob/master/src/editable-stuff/config.js instead for also having skills-section
+
+
+
+Note: 
+uses 
+ node: 'v12.22.9', npm: '8.5.1' 
+
+and now I install other so when rebuilding need
+
+nvm use 8
+npm install 
